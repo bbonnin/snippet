@@ -3,6 +3,10 @@
 ## Camel
 
 ```java
+import org.apache.camel.*;
+import org.apache.camel.builder.RouteBuilder;
+import org.apache.camel.impl.DefaultCamelContext;
+
 public class TestCamel {
     public static void main(String[] args) throws Exception {
         CamelContext ctx = new DefaultCamelContext();
